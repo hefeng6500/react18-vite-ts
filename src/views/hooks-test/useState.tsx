@@ -21,7 +21,7 @@ function Component() {
     setCount((count) => count + 1);
   };
 
-  console.log("重新渲染");
+  // console.log("useState 组件 重新渲染");
 
   const [userInfo, setUserInfo] = useState<UserInfo>({
     name: "hefeng6500",
@@ -144,10 +144,10 @@ function Component() {
       <div>
         使用 Immer 库：Create the next immutable state by mutating the current
         one
-
         <div>
-        <a target="_blank" href="https://github.com/immerjs/immer">https://github.com/immerjs/immer</a>
-
+          <a target="_blank" href="https://github.com/immerjs/immer">
+            https://github.com/immerjs/immer
+          </a>
         </div>
         <div>
           <h3>未使用 Immer</h3>
